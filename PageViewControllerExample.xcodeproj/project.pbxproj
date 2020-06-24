@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BEA716D924A3913C0075613D /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA716D824A3913C0075613D /* DataViewController.swift */; };
+		BEA716DB24A3923C0075613D /* CustomPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA716DA24A3923C0075613D /* CustomPageViewController.swift */; };
 		BEB67CC924A38AC700A3A584 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB67CC824A38AC700A3A584 /* AppDelegate.swift */; };
 		BEB67CCB24A38AC700A3A584 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB67CCA24A38AC700A3A584 /* SceneDelegate.swift */; };
 		BEB67CCD24A38AC700A3A584 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB67CCC24A38AC700A3A584 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BEA716D824A3913C0075613D /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		BEA716DA24A3923C0075613D /* CustomPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageViewController.swift; sourceTree = "<group>"; };
 		BEB67CC524A38AC700A3A584 /* PageViewControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageViewControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEB67CC824A38AC700A3A584 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		BEB67CCA24A38AC700A3A584 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +92,8 @@
 				BEB67CC824A38AC700A3A584 /* AppDelegate.swift */,
 				BEB67CCA24A38AC700A3A584 /* SceneDelegate.swift */,
 				BEB67CCC24A38AC700A3A584 /* ViewController.swift */,
+				BEA716D824A3913C0075613D /* DataViewController.swift */,
+				BEA716DA24A3923C0075613D /* CustomPageViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -185,8 +191,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA716D924A3913C0075613D /* DataViewController.swift in Sources */,
 				BEB67CCD24A38AC700A3A584 /* ViewController.swift in Sources */,
 				BEB67CC924A38AC700A3A584 /* AppDelegate.swift in Sources */,
+				BEA716DB24A3923C0075613D /* CustomPageViewController.swift in Sources */,
 				BEB67CCB24A38AC700A3A584 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
