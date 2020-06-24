@@ -39,7 +39,7 @@ class ViewController: UIViewController {
         pageViewController.view.translatesAutoresizingMaskIntoConstraints = false
         
         // Mudar cor do background
-        //pageViewController.view.backgroundColor = UIColor.green
+        pageViewController.view.backgroundColor = #colorLiteral(red: 0.624517858, green: 0.7574190497, blue: 1, alpha: 1)
         
         contentView.addSubview(pageViewController.view)
         

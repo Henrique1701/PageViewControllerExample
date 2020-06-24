@@ -15,17 +15,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BW2-Ve-kaI">
-                                <rect key="frame" x="20" y="298" width="374" height="301"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BW2-Ve-kaI">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="BW2-Ve-kaI" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="9nv-zq-ORT"/>
-                            <constraint firstItem="BW2-Ve-kaI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="227" id="Awb-fm-c5M"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="BW2-Ve-kaI" secondAttribute="bottom" constant="290" id="OaV-C5-ZFK"/>
-                            <constraint firstItem="BW2-Ve-kaI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="exj-qn-hdv"/>
+                            <constraint firstItem="BW2-Ve-kaI" firstAttribute="right" secondItem="8bC-Xf-vdC" secondAttribute="right" id="9nv-zq-ORT"/>
+                            <constraint firstItem="BW2-Ve-kaI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Awb-fm-c5M"/>
+                            <constraint firstItem="BW2-Ve-kaI" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="OaV-C5-ZFK"/>
+                            <constraint firstItem="BW2-Ve-kaI" firstAttribute="left" secondItem="8bC-Xf-vdC" secondAttribute="left" id="exj-qn-hdv"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -52,7 +52,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.62437856199999997" green="0.75352084640000005" blue="0.9990599751" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="616-MB-XM2" firstAttribute="centerY" secondItem="Glx-gH-5ea" secondAttribute="centerY" id="RV2-55-Jl7"/>
                             <constraint firstItem="616-MB-XM2" firstAttribute="centerX" secondItem="Glx-gH-5ea" secondAttribute="centerX" id="Vca-CC-d0E"/>
